@@ -9,7 +9,6 @@ import {
 function UpdateItemQuantity({ id }) {
   const dispatch = useDispatch();
   const currentQuantity = useSelector(getCurrentQuantityById(id));
-  console.log(id);
   return (
     <div className="flex items-center gap-2 md:gap-3">
       <Button
